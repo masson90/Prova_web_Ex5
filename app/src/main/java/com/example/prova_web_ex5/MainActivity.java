@@ -70,6 +70,8 @@ public class MainActivity extends AppCompatActivity {
                 peso = 0;
                 altura = 0;
                 resultado = 0;
+
+                CarregarTelaPrincipal();
             }
         });
 
@@ -99,6 +101,8 @@ public class MainActivity extends AppCompatActivity {
                 alert.setMessage(c + " °C equivale a " + resultado + " °F");
                 alert.setNeutralButton("Fechar",null);
                 alert.show();
+
+                CarregarTelaPrincipal();
 
             }
         });
